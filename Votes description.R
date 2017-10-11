@@ -1,0 +1,13 @@
+library(ggplot2)
+library(purrr)
+library(dplyr)
+library(tidyr)
+library(animation)
+library(gganimate)
+library(readxl)
+library(readr)
+library(data.table)
+library(countrycode)
+descriptions <- read_excel("descriptions1-70latestversion.xls")
+resolutions <- descriptions %>%
+  filter(session == 70)
