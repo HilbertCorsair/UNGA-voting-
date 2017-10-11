@@ -11,7 +11,7 @@ output:
 ## A look at the UN General Assembly voting dtata (1946-2015)
 
 <p style="text-align: justify;">
-  Did you ever wonder what impact your vote has on a global scale? Are the actions of your representatives in the United Nations General Assembly in line with your interests and hopes for the world ? Here you have a chance to answer these questions and also get an ideea about each country's voting trends and the agreements and desagreements that these trends underline.
+   Are the actions of your representatives in the United Nations General Assembly in line with your interests and hopes for the world ? What impact does your vote has on a global scale ? Here you have a chance to answer these questions and also get an ideea about each country's voting trends in the United Nations General Assemby as well es the agreements and desagreements that these trends underline.
 The data  comes from [Erik Voeten Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/12379) of the Harvard dataverse
 *"This is a dataset of roll-call votes in the UN General Assembly 1946-2015. It also contains Affinity of Nations scores and ideal point estimates derived from these votes."* 
     I also recomand reading Eric Voeten's paper ["Data and Analyses of Voting in the UN General Assembly"](https://poseidon01.ssrn.com/delivery.php?ID=093116088071088126075080068090105089033069066016061000078026114065003098123098017000063039024035109012028122107016000007078031012000008073033120006106117083027080009014076064119025107110007070108112006023024126092008119119076096110075089001110074081&EXT=pdf) in which he provides a detiled descreption of the data, a brief history of the research on this topic as well as insights on some voting patterns. 
@@ -60,8 +60,9 @@ main
 <p style="text-align: justify;">
 
 A glimpse at the ideal point data shows the world political poles and their evolution with time. If in the late 40's up to the 7O,s the global politics was split in 2 main blocks between the Unated States and Western Europe on one side and the eastrn Europe and the soviet block on the other, today things are significantly diferent especialy regarding the Russian position which has shifted since the 80's all the way between the western block and China and other comunist and autoritarian countries that represent todays oposing pole to the US. 
-Romania can be viewed here as an interesting indicator based on its geopolitical significance. Historicaly Romania has allways been at the crosrowds between the Est the West and the Middle-eastit acting as a buffer zone to western Europe against the expantion of the Otoman Empire and later against the expantion of the Soviet Union. 
-In this sense Romania can be viewed as an indicator of the balance of power in a region known for it's voltility.Once under the havy influence of the Soviet Union, Romania's external politics is today consitent with the europen block, a poitic shift that may have started in the 70's and culminated in 1990 with the fall of the comunist party as shown by the UNGA voting data. However Romania's alignement with the EU seen in the last years might not last very long afer the 2016 parlamentary electoins. Perhapes after decades of comunist coruprion, experimenting with liberal values might bing out unexpected side efects like the resurgence of an evin more organised and welthy class of tirants ready to replunge the country into darkness. With the US falling apart and the EU under seige on every side Romania is on its own.   
+Romania can be viewed here as an indicator of the regional stability and balance of power. Historicaly Romania has allways been at the crosrowds between the Est the West and the Middle-east acting as a buffer zone to western Europe against the expantion of the Otoman Empire and later against the expantion of the Soviet Union. 
+Romania's external politics is today somewhat consitent with the europen block, a poitic shift that might have started as early as the the 70's and culminated in 1990 with the fall of the comunist party as shown by the UNGA voting data. 
+
 </p>
 
 <p style="text-align: justify;">
@@ -174,12 +175,8 @@ ggplot(median_90, aes(x=medianIP))+
 ```
 
 <p style="text-align: justify;">
-On one side there is the United States of America and Israel with the closest voting body of about 53 countries including the European Union. The bigest voting bloc of about 140 countries however seems to be made up of mostly comunist countries or countries gouverned by diferent autoritarian regims. Russia tends to be somewhat in the middle between the two main blocs and given recent world political shifts noticed in 2017 Russia might tend to align more with the EU voting block. Russia's political shift over the years twords a more western position can also be observed by looking at its agreement ratio. 
+On one side there is the United States of America and Israel followed closely by a voteing body of about 53 countries including the European Union. The bigest voting bloc of about 140 countries however seems to be made up of mostly comunist countries or countries gouverned by diferent autoritarian regims. Russia tends to be somewhat in the middle between the two main blocs and given recent world political shifts noticed in 2017 Russia might tend to align more with the EU voting block. Russia's political shift over the years twords a centered position can also be observed by looking at its agreement ratio. 
 </p>
 
+...to be continued 
 
-
-Table Header  | Second Header
-------------- | ------------- 
-Table Cell    | Cell 2      
-Cell 3        | Cell 4 
