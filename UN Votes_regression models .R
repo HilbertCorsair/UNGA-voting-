@@ -106,19 +106,5 @@ lm_list_topic <- votes_topic_sumary%>% ungroup() %>%
   filter(p_adjusted > .05)
 
 
-# RO on human rights 
-filter(lm_list_topic, country == "Sirya")
-RO_HR <- filter(votes_topic_sumary, country == "Sirya" & topic == "Human rights")
-LM_HR_RO <- lm(ratio_yes ~ year, data = RO_HR)
-LM_HR_RO
-ggplot(RO_HR, aes(x = year, y= ratio_yes))+
-  geom_point()
-
-
-# country profile 
-profile <- votes_topic_sumary %>% ungroup() %>% group_by(country, topic) #  %>% summarise(yes_vote = mean(ratio_yes))
-pof <- filter(profile, country %in% c("United States of America", "China",  "Russia", "United Arab Emirates") )
-ggplot(pof, aes(x= topic, y= ratio_yes, col = country))+
-  geom_boxplot()
 
 
